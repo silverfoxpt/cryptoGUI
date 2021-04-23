@@ -1,6 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-
+#include <QMessageBox>
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -14,7 +14,8 @@ MainWindow::~MainWindow()
 }
 
 
-void MainWindow::on_testButton_clicked()
+
+void MainWindow::on_pushButton_clicked()
 {
-    ui->testLabel->setText("New");
+    QMessageBox::aboutQt(this, "MyTitle");
 }
