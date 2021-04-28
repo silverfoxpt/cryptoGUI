@@ -18,7 +18,9 @@ public:
 private slots:
 
 
-    void on_lineEdit_textChanged(const QString &arg1);
+    void on_Start_clicked();
+
+    void on_Exit_clicked();
 
 private:
     Ui::MainWindow *ui;
