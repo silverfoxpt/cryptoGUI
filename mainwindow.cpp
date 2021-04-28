@@ -26,9 +26,9 @@ void MainWindow::on_Start_clicked()
 
 void MainWindow::on_Exit_clicked()
 {
-    QMessageBox *exit = new QMessageBox;
-    exit->setText("You want to exit?");
-    exit->setStandardButtons(QMessageBox::Yes | QMessageBox::No);
-    exit->show();
-
+    QMessageBox::StandardButton reply = QMessageBox::warning(this, "Quit application", "Quit?", QMessageBox::Yes|QMessageBox::No);
+    if (reply == QMessageBox::Yes)
+    {
+        QApplication::quit();
+    }
 }
