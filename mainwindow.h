@@ -22,6 +22,8 @@ private slots:
 
     void on_Exit_clicked();
 
+    void on_BackStartButton_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
