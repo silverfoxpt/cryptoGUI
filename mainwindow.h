@@ -24,6 +24,17 @@ private slots:
 
     void on_BackStartButton_clicked();
 
+
+    void on_typeComboBox_currentTextChanged(const QString &arg1);
+
+    void on_nameComboBox_currentTextChanged(const QString &arg1);
+
+    void on_inputBox_textChanged();
+
+    void on_HelpButton_clicked();
+
+    void on_pushButton_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

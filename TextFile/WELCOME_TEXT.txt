@@ -1,0 +1,29 @@
++=====================================================================================+
+|	 ___       __   __       __  ___    __          ___  __   __        __        | 
+|	|__  |\ | /  ` |__) \ / |__)  |  | /  \ |\ |     |  /  \ /  \ |    /__`       |
+|	|___ | \| \__, |  \  |  |     |  | \__/ | \|     |  \__/ \__/ |___ .__/       | 
+| 										      |
++=====================================================================================+
+Version : Alpha 1.3                                                                                                                                                   
+
+Welcome to encryption controller project. You can now proceed
+Currently, this project support 2 encryptor(s), 5 translator(s), 6 hash function(s): 
+
+1. Morse Translator
+2. Binary Translator
+3. Hexadecimal (base 16) Translator
+4. Octal (base 8) Translator
+
+5. Base64 Encoder
+
+6. Ceasar Encryption (weak)
+7. ROT13 Encryption (weak)
+
+8. MD5 hash (deprecated/weak)
+9. SHA-1 hash (weak)
+10. SHA3-224
+11. SHA3-256
+12. SHA3-384
+13. SHA3-512
+
+Chose from 1->13 to continue, or press other keys to exit.

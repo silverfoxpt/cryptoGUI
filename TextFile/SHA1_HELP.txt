@@ -1,0 +1,17 @@
+* History:
+
+In cryptography, SHA-1 (Secure Hash Algorithm 1) is a cryptographic hash function which takes an input and produces a 
+	160-bit (20-byte) hash value known as a message digest typically rendered as a hexadecimal number, 40 digits long. 
+It was designed by the United States National Security Agency, and is a U.S. Federal Information Processing Standard.
+
+Since 2005, SHA-1 has not been considered secure against well-funded opponents; as of 2010 many organizations have recommended its replacement.
+NIST formally deprecated use of SHA-1 in 2011 and disallowed its use for digital signatures in 2013. 
+
+As of 2020, chosen-prefix attacks against SHA-1 are practical. 
+As such, it is recommended to remove SHA-1 from products as soon as possible and instead use SHA-2 or SHA-3. 
+Replacing SHA-1 is urgent where it is used for digital signatures.
+
+* Instructions:
+
+Upon finishing this instruction, you'll be prompted to enter the following field(s):
+- Input sentence: Your sentence to be hashed by SHA-1.

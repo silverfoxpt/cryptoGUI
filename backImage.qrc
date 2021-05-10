@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>backIconTrue.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,18 @@
+* History:
+
+SHA-3 (Secure Hash Algorithm 3) is the latest member of the Secure Hash Algorithm family of standards, released by NIST on August 5, 2015. 
+Although part of the same series of standards, SHA-3 is internally different from the MD5-like structure of SHA-1 and SHA-2.
+
+SHA-3 is a subset of the broader cryptographic primitive family Keccak, designed by Guido Bertoni, Joan Daemen, 	
+	Michaël Peeters, and Gilles Van Assche, building upon RadioGatún. 
+Keccak's authors have proposed additional uses for the function, not (yet) standardized by NIST, including a stream cipher, 
+	an authenticated encryption system, a "tree" hashing scheme for faster hashing on certain architectures, 
+	and AEAD ciphers Keyak and Ketje.
+
+SHA3-384 produce a 384-bit output with hash algorithm.
+
+* Instructions:
+
+Upon finishing this instruction, you'll be prompted to enter the following field(s):
+- Input sentence: Your sentence to be hashed by SHA3-384.
+

@@ -1,0 +1,17 @@
+*History:
+
+In mathematics and computing, the hexadecimal (also base 16 or hex) numeral system is a positional numeral system that represents numbers using a radix (base) of 16.
+Unlike the common way of representing numbers using 10 symbols, hexadecimal uses 16 distinct symbols, most often the symbols "0"–"9" to represent values 0 to 9, 
+	and "A"–"F" (or alternatively "a"–"f") to represent values 10 to 15.
+
+Hexadecimal numerals are widely used by computer system designers and programmers because they provide a human-friendly representation of binary-coded values. 
+Each hexadecimal digit represents four bits (binary digits), also known as a nibble (or nybble), which is half a byte. 
+For example, a single byte can have values ranging from 00000000 to 11111111 in binary form, which can be conveniently represented as 00 to FF in hexadecimal.
+
+*Instructions:
+
+Upon finishing this instruction, you'll be prompted to enter the following field(s):
+- Input sentence: Your sentence to be translated from/to hexadecimal code.
+		  If you want to translate from hexadecimal back to plain text, 
+		  	please use white space ' ' as delimiter a.k.a 
+			seperate hexadecimal codes with white space.

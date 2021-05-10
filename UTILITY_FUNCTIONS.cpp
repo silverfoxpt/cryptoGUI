@@ -13,6 +13,12 @@
 #include <climits>
 #include <sstream>
 #include "UTILITY_FUNCTIONS.h"
+
+#include <QString>
+#include <QFile>
+#include <QCoreApplication>
+#include <QTextStream>
+#include <QDir>
 using namespace std;
 
 inline bool exists_test0 (const std::string& name) {
@@ -34,7 +40,7 @@ vector<string> tokenize(string s, const char delim)
 vector<string> inputTextFile(char a[])
 {
     ifstream input(a);
-    //if (!exists_test0(a)) {cout << "boo" << endl;}
+    //if (!exists_test0(a)) {cerr << "boo" << endl;}
     vector<string> res;
     string tmp;
     while(getline(input, tmp))
@@ -52,8 +58,45 @@ void printTextFileContent(char a[])
     //cerr << contentFile.size();
     for (int i = 0; i < (int) contentFile.size(); i++)
     {
-        cout << contentFile[i] << "\n";
+        cerr << contentFile[i] << "\n";
     }
+}
+
+string qStrToStr(QString s)
+{
+    std::string utf8_text = s.toUtf8().constData();
+    return utf8_text;
+}
+
+QString strToQStr(string s)
+{return QString::fromStdString(s);}
+
+string textFileToStr(char a[])
+{
+    /*string res = "";
+    ifstream input(a);
+    //if (!exists_test0(a)) {cout << "boo" << endl;}
+    string tmp;
+    while(getline(input, tmp))
+    {
+        //cerr << "stop" << endl;
+        res += tmp; res +='\n';
+    }
+    return res;*/
+
+    QString path;
+    path.append(":/new/prefix1/"); path.append(a);
+    //cerr << qStrToStr(path);
+    QFile file(path);
+
+    if(!file.open(QFile::ReadOnly | QFile::Text))
+    {
+        return "";
+    }
+
+    QTextStream inp(&file);
+    QString myText = inp.readAll();
+    return qStrToStr(myText);
 }
 
 //int main(){printTextFileContent("WELCOME_TEXT.txt");}

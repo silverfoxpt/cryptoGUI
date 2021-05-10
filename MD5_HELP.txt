@@ -1,0 +1,6 @@
+* Instructions:
+
+Upon finishing this instruction, you'll be prompted to enter the following field(s):
+- Input sentence: Your sentence to be hashed by MD5.
+
+*WARNING: AS MENTIONED ABOVE, MD5 IS HEAVILY EXPLOITED AND SHOULD ONLY BE USED FOR EDUCATIONAL PURPOSES AND ERROR-CHECKING FUNCTIONALITIES, ALTHOUGH MANY APPLICATIONS NOWADAYS STILL EMPLOY THIS PRACTICE.

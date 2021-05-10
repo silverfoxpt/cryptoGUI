@@ -15,10 +15,15 @@
 #include <cmath>
 #include <climits>
 #include <sstream>
+
+#include <QString>
 using namespace std;
 
 vector<string> tokenize(string s, const char delim);
 vector<string> inputTextFile(char a[]);
 void printTextFileContent(char a[]);
+string qStrToStr(QString s);
+QString strToQStr(string s);
+string textFileToStr(char a[]);
 
 #endif

@@ -1,0 +1,31 @@
+*History:
+
+Morse code is a method used in telecommunication to encode text characters as 
+	standardized sequences of two different signal durations, 
+	called dots and dashes or dits and dahs.
+Morse code is named after Samuel Morse, an inventor of the telegraph.
+
+International Morse Code, also known as Continental Morse Code, 
+	encodes the 26 English letters A through Z, some non-English letters, 
+	the Arabic numerals and a small set of punctuation and procedural signals (prosigns). 
+
+There is no distinction between upper and lower case letters. 
+Each Morse code symbol is formed by a sequence of dots and dashes.
+
+<Sources : Wikipedia>
+
+*Instructions:
+
+Upon finishing this instruction section, you'll be prompted to input following field(s):
+- Input sentence : The sentence that you want to translate from/to Morse code
+- Delimiter character : 
+	The character between your morse characters, commonly the forward slash '/'
+*Cautions : If you want to encrypt ONLY, you can skip the following fields.
+
+- Dash character : The character representing your dash, commonly the minus sign '-'
+- Dot character : The character representing your dot, commonly the dot sign '.'
+
+After entering the upper fields, please wait patiently for the program to process.
+
+<Continuing shortly...> 
+

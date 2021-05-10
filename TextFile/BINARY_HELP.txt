@@ -1,0 +1,17 @@
+*History:
+
+A binary code represents text, computer processor instructions, or any other data using a two-symbol system. 
+The two-symbol system used is often "0" and "1" from the binary number system. 
+The binary code assigns a pattern of binary digits, also known as bits, to each character, instruction, etc. 
+For example, a binary string of eight bits can represent any of 256 possible values and can, therefore, 
+	represent a wide variety of different items.
+
+<Source : Wikipedia>
+
+*Instruction:
+
+Upon finishing this instruction, you'll be prompted to enter the following field(s):
+- Input sentence: Your sentence to be translated from/to binary code.
+		  If you want to translate from binary back to plain text, 
+		  	please use white space ' ' as delimiter a.k.a 
+			seperate binary codes with white space.
